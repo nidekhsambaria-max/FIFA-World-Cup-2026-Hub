@@ -7,12 +7,12 @@ import { Match, GroupStanding, BlogArticle, MatchEvent } from "./src/types";
 
 // Load environment variables
 dotenv.config();
-
+const PORT = process.env.PORT || 3000;
 // Create Express app
 const app = express();
 app.use(express.json());
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // Initialize GoogleGenAI client lazily to prevent crash on empty key
 let aiClient: GoogleGenAI | null = null;
