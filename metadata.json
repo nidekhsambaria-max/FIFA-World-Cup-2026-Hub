@@ -1,0 +1,6 @@
+{
+  "name": "FIFA World Cup 2026 Hub",
+  "description": "The ultimate live tracker, editor's blog, tactical newsroom, and AI match analyst for the FIFA World Cup 2026 in US, Canada, and Mexico.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
